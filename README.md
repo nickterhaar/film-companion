@@ -7,6 +7,7 @@ THE IDEA
 - Use/create database with camera and lens info.
 - Setting suggestions (based on history/already taken pictures)
 
+
 USEFULL SOURCES
 - https://www.filmtypes.com/
 - https://thedarkroom.com/film-index/
