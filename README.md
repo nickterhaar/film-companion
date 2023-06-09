@@ -1,1 +1,1 @@
-# film-companion
+# Film Companion
