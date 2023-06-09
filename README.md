@@ -1,4 +1,4 @@
-# Film Companion
+# FILM COMPANION
 
 ## THE IDEA
 - Use/create database with film info (speed(iso), nominal speed, max push/pull, ways to develop, etc.) and examples.
