@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "film-companion"
+version = "0.1.0"
+description = ""
+authors = ["Nick ter Haar <nick@onpointmedia.nl>"]
+readme = "README.md"
+packages = [{include = "film_companion"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+wtforms = "^3.0.1"
+flask-sqlalchemy = "^3.0.3"
+flask-wtf = "^1.1.1"
+bs4 = "^0.0.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
