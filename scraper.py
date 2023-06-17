@@ -56,5 +56,3 @@ def create_json():
     json_object = json.dumps(get_films(), indent=2)
     with open('films.json', 'w') as films_file:
         films_file.write(json_object)
-
-create_json()
