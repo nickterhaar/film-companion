@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Nick ter Haar <nick@onpointmedia.nl>"]
 readme = "README.md"
-packages = [{include = "film_companion"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
