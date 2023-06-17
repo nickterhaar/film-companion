@@ -11,3 +11,5 @@
 ## USEFULL SOURCES
 - https://www.filmtypes.com/
 - https://thedarkroom.com/film-index/
+- https://www.digitaltruth.com/
+- https://www.digitaltruth.com/devchart.php
