@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    
+    {% for film in films %}
+        <div class="container p-6 my-6 border-2 border-black rounded-lg">
+            <p>{{ film.brand }}</p>
+            <p>{{ film.name }}</p>
+            <p>{{ film.film_type }}</p>
+            <p>{{ film.formats }}</p>
+            <p>{{ film.origin }}</p>
+            <p>{{ film.process }}</p>
+            <p>{{ film.film_speed }}</p>
+            <p>{{ film.grain }}</p>
+            <p>{{ film.contrast }}</p>
+            <p>{{ film.facts }}</p>
+        </div>
+    {% endfor %}
+
+{% endblock content %}

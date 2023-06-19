@@ -40,6 +40,13 @@ def get_films():
             }
     return films
 
+def get_film_images():
+    image_links = []
+    links = get_content(BASE_URL).findAll(class_='filmroll')
+    for link in links:
+        image_links.append(link['src'])
+    #TODO: write file saver
+
 
 def get_names():
     names = []
@@ -57,3 +64,5 @@ def create_json():
     json_object = json.dumps(get_films(), indent=2)
     with open('films.json', 'w') as films_file:
         films_file.write(json_object)
+
+# get_film_images()
