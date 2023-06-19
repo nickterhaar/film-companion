@@ -50,6 +50,7 @@ def get_names():
             pass
         else:
             names.append(film_name.text)
+    return names
 
 
 def create_json():
