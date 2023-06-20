@@ -16,7 +16,8 @@ def create_db():
                 films[film]['film_speed'],
                 films[film]['grain'],
                 films[film]['contrast'],
-                films[film]['facts']
+                films[film]['facts'],
+                films[film]['image']
             )
             db.session.add(new_film)
             db.session.commit()

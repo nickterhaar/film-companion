@@ -1,9 +1,12 @@
 import requests
 import json
+import wget
 from bs4 import BeautifulSoup
 
 
-BASE_URL = 'https://www.filmtypes.com/films'
+BASE_URL = 'https://www.filmtypes.com'
+FILM_URL = 'https://www.filmtypes.com/films'
+FILE_PATH = '/static/images/film/'
 
 
 def get_content(url):
@@ -13,7 +16,7 @@ def get_content(url):
 
 
 def get_film_names():
-    return get_content(BASE_URL).findAll(class_='film_title')
+    return get_content(FILM_URL).findAll(class_='film_title')
 
 
 def get_films():
@@ -25,9 +28,9 @@ def get_films():
             pass
         else:
             link_name = film_name.text.replace(' ', '-')
-            spec_data = get_content(f'{BASE_URL}/{link_name}').findAll(class_='spec_data')
+            spec_data = get_content(f'{FILM_URL}/{link_name}').findAll(class_='spec_data')
             films[film_name.text] = {
-                'link': f'{BASE_URL}/{link_name}',
+                'link': f'{FILM_URL}/{link_name}',
                 'film_type': f'{spec_data[0].text}',
                 'brand': f'{spec_data[1].text}',
                 'formats': f'{spec_data[2].text}',
@@ -36,17 +39,20 @@ def get_films():
                 'film_speed': f'{spec_data[5].text}',
                 'grain': f'{spec_data[-5].text}',
                 'contrast': f'{spec_data[-4].text}',
-                'facts': f'{spec_data[-1].text}'
+                'facts': f'{spec_data[-1].text}',
+                'image': f'{FILE_PATH}{link_name.lower()}.jpg'
             }
     return films
 
 def get_film_images():
     image_links = []
-    links = get_content(BASE_URL).findAll(class_='filmroll')
+    links = get_content(FILM_URL).findAll(class_='filmroll')
     for link in links:
-        image_links.append(link['src'])
-    #TODO: write file saver
-
+        image_links.append(f'{BASE_URL}{link["src"]}')
+    for image_link in image_links:
+        file_name = image_link.split('/')[-1].split('.')
+        wget.download(image_link, out=f'./static/images/film/{file_name[0]}.{file_name[-1]}')
+    return
 
 def get_names():
     names = []
@@ -65,4 +71,4 @@ def create_json():
     with open('films.json', 'w') as films_file:
         films_file.write(json_object)
 
-# get_film_images()
+create_json()

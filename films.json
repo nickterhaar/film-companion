@@ -9,7 +9,8 @@
     "film_speed": "20",
     "grain": "Very Fine",
     "contrast": "Very High",
-    "facts": "According to ADOX, the sharpest, most fine-grained and highest resolving image recording system in the world. Needs special developer to manage extreme contrast. Coated on to a totally transparent polyester base."
+    "facts": "According to ADOX, the sharpest, most fine-grained and highest resolving image recording system in the world. Needs special developer to manage extreme contrast. Coated on to a totally transparent polyester base.",
+    "image": "/static/images/film/adox-cms-20-ii.jpg"
   },
   "Adox SCALA 160": {
     "link": "https://www.filmtypes.com/films/Adox-SCALA-160",
@@ -21,7 +22,8 @@
     "film_speed": "160",
     "grain": "Fine",
     "contrast": "High",
-    "facts": "Same film as the SilverMax but rebranded to show its suitability for reversal process."
+    "facts": "Same film as the SilverMax but rebranded to show its suitability for reversal process.",
+    "image": "/static/images/film/adox-scala-160.jpg"
   },
   "Adox SilverMax": {
     "link": "https://www.filmtypes.com/films/Adox-SilverMax",
@@ -33,7 +35,8 @@
     "film_speed": "100",
     "grain": "Fine",
     "contrast": "High",
-    "facts": "Fine grain ortho-panchromatic film on a clear triacetate base similar to original AGFA APX 100."
+    "facts": "Fine grain ortho-panchromatic film on a clear triacetate base similar to original AGFA APX 100.",
+    "image": "/static/images/film/adox-silvermax.jpg"
   },
   "AGFA APX 100": {
     "link": "https://www.filmtypes.com/films/AGFA-APX-100",
@@ -45,7 +48,8 @@
     "film_speed": "100",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "General purpose panchromatic film. Similar to Kentmere 100 ASA."
+    "facts": "General purpose panchromatic film. Similar to Kentmere 100 ASA.",
+    "image": "/static/images/film/agfa-apx-100.jpg"
   },
   "AGFA APX 400": {
     "link": "https://www.filmtypes.com/films/AGFA-APX-400",
@@ -57,7 +61,8 @@
     "film_speed": "400",
     "grain": "Medium",
     "contrast": "Medium-High",
-    "facts": "General purpose panchromatic film. Similar to Kentmere 400 ASA."
+    "facts": "General purpose panchromatic film. Similar to Kentmere 400 ASA.",
+    "image": "/static/images/film/agfa-apx-400.jpg"
   },
   "AGFA Vista Plus 200": {
     "link": "https://www.filmtypes.com/films/AGFA-Vista-Plus-200",
@@ -69,7 +74,8 @@
     "film_speed": "200",
     "grain": "Normal",
     "contrast": "Low-Medium",
-    "facts": "Budget color negative film that is a repackaged Fujifilm stock - likely Fujicolor 200."
+    "facts": "Budget color negative film that is a repackaged Fujifilm stock - likely Fujicolor 200.",
+    "image": "/static/images/film/agfa-vista-plus-200.jpg"
   },
   "AGFA Vista Plus 400": {
     "link": "https://www.filmtypes.com/films/AGFA-Vista-Plus-400",
@@ -81,7 +87,8 @@
     "film_speed": "400",
     "grain": "Medium",
     "contrast": "Low-Medium",
-    "facts": "Budget color negative film that is likely a repackaged Fujifilm stock."
+    "facts": "Budget color negative film that is likely a repackaged Fujifilm stock.",
+    "image": "/static/images/film/agfa-vista-plus-400.jpg"
   },
   "Cinestill 800T": {
     "link": "https://www.filmtypes.com/films/Cinestill-800T",
@@ -93,7 +100,8 @@
     "film_speed": "800",
     "grain": "Medium",
     "contrast": "Low",
-    "facts": "CineStill 800T is a tungsten balanced film that is created to be shot in low-light situations with tungsten (yellow) lighting. Its color balance makes it a great film for experimenting, and it is a great choice for night photography with neon lights. The Film is based on Kodak's Vision 3 5219 motion picture cinema film."
+    "facts": "CineStill 800T is a tungsten balanced film that is created to be shot in low-light situations with tungsten (yellow) lighting. Its color balance makes it a great film for experimenting, and it is a great choice for night photography with neon lights. The Film is based on Kodak's Vision 3 5219 motion picture cinema film.",
+    "image": "/static/images/film/cinestill-800t.jpg"
   },
   "Fomapan 100 Classic": {
     "link": "https://www.filmtypes.com/films/Fomapan-100-Classic",
@@ -105,7 +113,8 @@
     "film_speed": "100",
     "grain": "Fine",
     "contrast": "High",
-    "facts": "Traditional general purpose panchromatic fine grain film. Characterized by high resolution, wide exposure latitude and fine grain."
+    "facts": "Traditional general purpose panchromatic fine grain film. Characterized by high resolution, wide exposure latitude and fine grain.",
+    "image": "/static/images/film/fomapan-100-classic.jpg"
   },
   "Fomapan 200 Creative": {
     "link": "https://www.filmtypes.com/films/Fomapan-200-Creative",
@@ -117,7 +126,8 @@
     "film_speed": "200",
     "grain": "Normal",
     "contrast": "Medium",
-    "facts": "Modern general purpose panchromatic film using both hexagonal core and shell tabular 'T' grains. Wide exposure latitude allows exposures between ISO 100/21\u00b0 and 800/30\u00b0."
+    "facts": "Modern general purpose panchromatic film using both hexagonal core and shell tabular 'T' grains. Wide exposure latitude allows exposures between ISO 100/21\u00b0 and 800/30\u00b0.",
+    "image": "/static/images/film/fomapan-200-creative.jpg"
   },
   "Fomapan 400 Action": {
     "link": "https://www.filmtypes.com/films/Fomapan-400-Action",
@@ -129,7 +139,8 @@
     "film_speed": "400",
     "grain": "Normal",
     "contrast": "Medium",
-    "facts": "Traditional general purpose panchromatic film. Intended for use under unfavourable light conditions."
+    "facts": "Traditional general purpose panchromatic film. Intended for use under unfavourable light conditions.",
+    "image": "/static/images/film/fomapan-400-action.jpg"
   },
   "Fuji C200": {
     "link": "https://www.filmtypes.com/films/Fuji-C200",
@@ -141,7 +152,8 @@
     "film_speed": "200",
     "grain": "Normal",
     "contrast": "Low-Medium",
-    "facts": "General purpose budget color film updated 2017 with super fine grain technology. "
+    "facts": "General purpose budget color film updated 2017 with super fine grain technology. ",
+    "image": "/static/images/film/fuji-c200.jpg"
   },
   "Fuji Neopan 400CN": {
     "link": "https://www.filmtypes.com/films/Fuji-Neopan-400CN",
@@ -153,7 +165,8 @@
     "film_speed": "400",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "Outstanding sharpness and rich gradation. Wide exposure latidude. Excellent choice for a wide range of photographic applications, including portraits and wedding with the added benefit of being processed in C41 color negative chemicals."
+    "facts": "Outstanding sharpness and rich gradation. Wide exposure latidude. Excellent choice for a wide range of photographic applications, including portraits and wedding with the added benefit of being processed in C41 color negative chemicals.",
+    "image": "/static/images/film/fuji-neopan-400cn.jpg"
   },
   "Fuji Neopan Acros 100": {
     "link": "https://www.filmtypes.com/films/Fuji-Neopan-Acros-100",
@@ -165,7 +178,8 @@
     "film_speed": "100",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "Outstanding sharpness and rich gradation. Wide exposure latidude. Excellent choice for a wide range of photographic applications, including portraits and wedding. Ideal for long exposures due to low rate of reciprocity failure. Production discontinued in 2018.\n"
+    "facts": "Outstanding sharpness and rich gradation. Wide exposure latidude. Excellent choice for a wide range of photographic applications, including portraits and wedding. Ideal for long exposures due to low rate of reciprocity failure. Production discontinued in 2018.\n",
+    "image": "/static/images/film/fuji-neopan-acros-100.jpg"
   },
   "Fuji Pro 400H": {
     "link": "https://www.filmtypes.com/films/Fuji-Pro-400H",
@@ -177,7 +191,8 @@
     "film_speed": "400",
     "grain": "Normal",
     "contrast": "Low-Medium",
-    "facts": "Professional film with 4th color layer offering fine grain, low contrast and natural skin tones for weddings, portraits, fashion"
+    "facts": "Professional film with 4th color layer offering fine grain, low contrast and natural skin tones for weddings, portraits, fashion",
+    "image": "/static/images/film/fuji-pro-400h.jpg"
   },
   "Fuji Provia 100F": {
     "link": "https://www.filmtypes.com/films/Fuji-Provia-100F",
@@ -189,7 +204,8 @@
     "film_speed": "100",
     "grain": "Very Fine",
     "contrast": "Medium-High",
-    "facts": "Extremely high sharpness. It captures details with unprecedented clarity, while providing rich gradation, vivid and faithful color reproduction, and well-controlled gradation bal-\nance. "
+    "facts": "Extremely high sharpness. It captures details with unprecedented clarity, while providing rich gradation, vivid and faithful color reproduction, and well-controlled gradation bal-\nance. ",
+    "image": "/static/images/film/fuji-provia-100f.jpg"
   },
   "Fuji Superia 200": {
     "link": "https://www.filmtypes.com/films/Fuji-Superia-200",
@@ -201,7 +217,8 @@
     "film_speed": "200",
     "grain": "Normal",
     "contrast": "Medium",
-    "facts": "General purpose film\n"
+    "facts": "General purpose film\n",
+    "image": "/static/images/film/fuji-superia-200.jpg"
   },
   "Fuji Superia X-TRA 400": {
     "link": "https://www.filmtypes.com/films/Fuji-Superia-X-TRA-400",
@@ -213,7 +230,8 @@
     "film_speed": "400",
     "grain": "Normal",
     "contrast": "Low-Medium",
-    "facts": "General purpose consumer color film updated 2011, with improved shelf life and super uniform fine grain technology."
+    "facts": "General purpose consumer color film updated 2011, with improved shelf life and super uniform fine grain technology.",
+    "image": "/static/images/film/fuji-superia-x-tra-400.jpg"
   },
   "Fuji Superia X-TRA 800": {
     "link": "https://www.filmtypes.com/films/Fuji-Superia-X-TRA-800",
@@ -225,7 +243,8 @@
     "film_speed": "800",
     "grain": "Medium",
     "contrast": "Medium",
-    "facts": "General purpose consumer color film updated 2011, with improved shelf life.\n"
+    "facts": "General purpose consumer color film updated 2011, with improved shelf life.\n",
+    "image": "/static/images/film/fuji-superia-x-tra-800.jpg"
   },
   "Fuji Velvia 50": {
     "link": "https://www.filmtypes.com/films/Fuji-Velvia-50",
@@ -237,7 +256,8 @@
     "film_speed": "50",
     "grain": "Very Fine",
     "contrast": "High",
-    "facts": "This film combines superb granularity with resolving power. The result is well-modulated, vivid color reproduction and high picture quality, as required in such wide-ranging subjects as nature photography, fashion, products, interiors and artwork. It is especially suited to subjects that demand precision in reproduction and emphasis in colors."
+    "facts": "This film combines superb granularity with resolving power. The result is well-modulated, vivid color reproduction and high picture quality, as required in such wide-ranging subjects as nature photography, fashion, products, interiors and artwork. It is especially suited to subjects that demand precision in reproduction and emphasis in colors.",
+    "image": "/static/images/film/fuji-velvia-50.jpg"
   },
   "Fuji Velvia 100": {
     "link": "https://www.filmtypes.com/films/Fuji-Velvia-100",
@@ -249,7 +269,8 @@
     "film_speed": "100",
     "grain": "Very Fine",
     "contrast": "High",
-    "facts": "This film combines superb granularity with resolving power. The result is well-modulated, vivid color reproduction and high picture quality, as required in such wide-ranging subjects as nature photography, fashion, products, interiors and artwork. It is especially suited to subjects that demand precision in reproduction and emphasis in colors. Fuji claims: \"The world\u2019s highest level of color saturation\u201d"
+    "facts": "This film combines superb granularity with resolving power. The result is well-modulated, vivid color reproduction and high picture quality, as required in such wide-ranging subjects as nature photography, fashion, products, interiors and artwork. It is especially suited to subjects that demand precision in reproduction and emphasis in colors. Fuji claims: \"The world\u2019s highest level of color saturation\u201d",
+    "image": "/static/images/film/fuji-velvia-100.jpg"
   },
   "Ilford Delta 100": {
     "link": "https://www.filmtypes.com/films/Ilford-Delta-100",
@@ -261,7 +282,8 @@
     "film_speed": "100",
     "grain": "Very Fine",
     "contrast": "High",
-    "facts": "Very fine grain modern panchromatic professional film using core-shell crystal technology, Ilfords response to Kodak T-MAX."
+    "facts": "Very fine grain modern panchromatic professional film using core-shell crystal technology, Ilfords response to Kodak T-MAX.",
+    "image": "/static/images/film/ilford-delta-100.jpg"
   },
   "Ilford Delta 400": {
     "link": "https://www.filmtypes.com/films/Ilford-Delta-400",
@@ -273,7 +295,8 @@
     "film_speed": "400",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "Very fine grain modern panchromatic professional film using core-shell crystal technology, Ilfords response to Kodak T-MAX."
+    "facts": "Very fine grain modern panchromatic professional film using core-shell crystal technology, Ilfords response to Kodak T-MAX.",
+    "image": "/static/images/film/ilford-delta-400.jpg"
   },
   "Ilford Delta 3200": {
     "link": "https://www.filmtypes.com/films/Ilford-Delta-3200",
@@ -285,7 +308,8 @@
     "film_speed": "1000",
     "grain": "Medium",
     "contrast": "High",
-    "facts": "Modern panchromatic professional film using core-shell crystal technology for fast action and low light photography. An ISO 1000 film suitable for push processing to an E.I. of 3200 or higher."
+    "facts": "Modern panchromatic professional film using core-shell crystal technology for fast action and low light photography. An ISO 1000 film suitable for push processing to an E.I. of 3200 or higher.",
+    "image": "/static/images/film/ilford-delta-3200.jpg"
   },
   "Ilford FP4 Plus": {
     "link": "https://www.filmtypes.com/films/Ilford-FP4-Plus",
@@ -297,7 +321,8 @@
     "film_speed": "125",
     "grain": "Fine",
     "contrast": "High",
-    "facts": "Fine grain, general purpose panchromatic film with a wide exposure latitude. Originally launched as Ilford Fine grain Panchromatic emulsion in 1935."
+    "facts": "Fine grain, general purpose panchromatic film with a wide exposure latitude. Originally launched as Ilford Fine grain Panchromatic emulsion in 1935.",
+    "image": "/static/images/film/ilford-fp4-plus.jpg"
   },
   "Ilford HP5 Plus": {
     "link": "https://www.filmtypes.com/films/Ilford-HP5-Plus",
@@ -309,7 +334,8 @@
     "film_speed": "400",
     "grain": "Fine",
     "contrast": "Medium",
-    "facts": "Medium contrast, general purpose panchromatic film with a wide exposure latitude. A film tracing its heritage back to the Ilford HyPer sensitive emulsion in 1931. Well suited to photojournalism, travel, sports, action and indoor available light photography."
+    "facts": "Medium contrast, general purpose panchromatic film with a wide exposure latitude. A film tracing its heritage back to the Ilford HyPer sensitive emulsion in 1931. Well suited to photojournalism, travel, sports, action and indoor available light photography.",
+    "image": "/static/images/film/ilford-hp5-plus.jpg"
   },
   "Ilford Pan 100": {
     "link": "https://www.filmtypes.com/films/Ilford-Pan-100",
@@ -321,7 +347,8 @@
     "film_speed": "100",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "General purpose budget panchromatic film for selected markets. High degree of exposure latitude, 1 1/2 stops under to as much as 5 stops over, making them easy and reliable to use in difficult lighting conditions."
+    "facts": "General purpose budget panchromatic film for selected markets. High degree of exposure latitude, 1 1/2 stops under to as much as 5 stops over, making them easy and reliable to use in difficult lighting conditions.",
+    "image": "/static/images/film/ilford-pan-100.jpg"
   },
   "Ilford Pan 400": {
     "link": "https://www.filmtypes.com/films/Ilford-Pan-400",
@@ -333,7 +360,8 @@
     "film_speed": "400",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "General purpose budget panchromatic film for selected markets. High degree of exposure latitude, 1 1/2 stops under to as much as 5 stops over, making them easy and reliable to use in difficult lighting conditions."
+    "facts": "General purpose budget panchromatic film for selected markets. High degree of exposure latitude, 1 1/2 stops under to as much as 5 stops over, making them easy and reliable to use in difficult lighting conditions.",
+    "image": "/static/images/film/ilford-pan-400.jpg"
   },
   "Ilford Pan F Plus": {
     "link": "https://www.filmtypes.com/films/Ilford-Pan-F-Plus",
@@ -345,7 +373,8 @@
     "film_speed": "50",
     "grain": "Very Fine",
     "contrast": "High",
-    "facts": "Very fine grain panchromatic film for portraiture, architecture, still life. Poor image latency so needs to be developed promptly. Outstanding resolution, sharpness and edge contrast."
+    "facts": "Very fine grain panchromatic film for portraiture, architecture, still life. Poor image latency so needs to be developed promptly. Outstanding resolution, sharpness and edge contrast.",
+    "image": "/static/images/film/ilford-pan-f-plus.jpg"
   },
   "Ilford SFX 200": {
     "link": "https://www.filmtypes.com/films/Ilford-SFX-200",
@@ -357,7 +386,8 @@
     "film_speed": "200",
     "grain": "Normal",
     "contrast": "High",
-    "facts": "Black & White film with extended red sensitivity (up to 740nm). To achieve moderate IR effects requires a very deep red filter (Heliopan 715, Hoya R72 or the Ilford SFX filter) or deep red filter otherwise it will give similar results to HP5 upon which it is based."
+    "facts": "Black & White film with extended red sensitivity (up to 740nm). To achieve moderate IR effects requires a very deep red filter (Heliopan 715, Hoya R72 or the Ilford SFX filter) or deep red filter otherwise it will give similar results to HP5 upon which it is based.",
+    "image": "/static/images/film/ilford-sfx-200.jpg"
   },
   "Ilford XP2 Super": {
     "link": "https://www.filmtypes.com/films/Ilford-XP2-Super",
@@ -369,7 +399,8 @@
     "film_speed": "400",
     "grain": "Very Fine",
     "contrast": "High",
-    "facts": "C-41 process B&W film. Replaced XP2 Plus. Improved exposure latitude compared with XP2. Exceptionally sharp, crisp prints with excellent highlights and improved shadows."
+    "facts": "C-41 process B&W film. Replaced XP2 Plus. Improved exposure latitude compared with XP2. Exceptionally sharp, crisp prints with excellent highlights and improved shadows.",
+    "image": "/static/images/film/ilford-xp2-super.jpg"
   },
   "Kentmere 100": {
     "link": "https://www.filmtypes.com/films/Kentmere-100",
@@ -381,7 +412,8 @@
     "film_speed": "100",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "The film is characterized by a fine grain structure and good sharpness, as well as a broad tonal range and wide exposure latitude."
+    "facts": "The film is characterized by a fine grain structure and good sharpness, as well as a broad tonal range and wide exposure latitude.",
+    "image": "/static/images/film/kentmere-100.jpg"
   },
   "Kentmere 400": {
     "link": "https://www.filmtypes.com/films/Kentmere-400",
@@ -393,7 +425,8 @@
     "film_speed": "400",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "The film is characterized by a fine grain structure and good sharpness, as well as a broad tonal range and wide exposure latitude."
+    "facts": "The film is characterized by a fine grain structure and good sharpness, as well as a broad tonal range and wide exposure latitude.",
+    "image": "/static/images/film/kentmere-400.jpg"
   },
   "Kodak ColorPlus 200": {
     "link": "https://www.filmtypes.com/films/Kodak-ColorPlus-200",
@@ -405,7 +438,8 @@
     "film_speed": "200",
     "grain": "Normal",
     "contrast": "Low-Medium",
-    "facts": "General purpose budget color film. Mid 1980s Kodacolor VR 200 re-introduced as a budget offer to Gold 200"
+    "facts": "General purpose budget color film. Mid 1980s Kodacolor VR 200 re-introduced as a budget offer to Gold 200",
+    "image": "/static/images/film/kodak-colorplus-200.jpg"
   },
   "Kodak Ektachrome E100": {
     "link": "https://www.filmtypes.com/films/Kodak-Ektachrome-E100",
@@ -417,7 +451,8 @@
     "film_speed": "100",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "This film delivers extremely fine grain, a low D-min for\nwhiter, brighter whites, and features moderately enhanced\ncolor saturation with a neutral color balance and a low\ncontrast tone scale. This film is designed for exposure with\ndaylight or electronic flash."
+    "facts": "This film delivers extremely fine grain, a low D-min for\nwhiter, brighter whites, and features moderately enhanced\ncolor saturation with a neutral color balance and a low\ncontrast tone scale. This film is designed for exposure with\ndaylight or electronic flash.",
+    "image": "/static/images/film/kodak-ektachrome-e100.jpg"
   },
   "Kodak Ektar 100": {
     "link": "https://www.filmtypes.com/films/Kodak-Ektar-100",
@@ -429,7 +464,8 @@
     "film_speed": "100",
     "grain": "Fine",
     "contrast": "High",
-    "facts": "Professional fine grain film with ultra-vivid colors for nature, travel & fashion photography\n\n"
+    "facts": "Professional fine grain film with ultra-vivid colors for nature, travel & fashion photography\n\n",
+    "image": "/static/images/film/kodak-ektar-100.jpg"
   },
   "Kodak Gold 200": {
     "link": "https://www.filmtypes.com/films/Kodak-Gold-200",
@@ -441,7 +477,8 @@
     "film_speed": "200",
     "grain": "Medium",
     "contrast": "Low-Medium",
-    "facts": "A daylight-balanced colour negative film. It offers a versatile combination of vivid colour saturation, fine grain, and high image sharpness. It also features wide exposure latitude from two stops underexposure to three stops overexposure."
+    "facts": "A daylight-balanced colour negative film. It offers a versatile combination of vivid colour saturation, fine grain, and high image sharpness. It also features wide exposure latitude from two stops underexposure to three stops overexposure.",
+    "image": "/static/images/film/kodak-gold-200.jpg"
   },
   "Kodak Portra 160": {
     "link": "https://www.filmtypes.com/films/Kodak-Portra-160",
@@ -453,7 +490,8 @@
     "film_speed": "160",
     "grain": "Fine",
     "contrast": "Medium",
-    "facts": "Professional, fine grain film with natural colors for portraits, fashion & wedding photography. Vision 3 technology."
+    "facts": "Professional, fine grain film with natural colors for portraits, fashion & wedding photography. Vision 3 technology.",
+    "image": "/static/images/film/kodak-portra-160.jpg"
   },
   "Kodak Portra 400": {
     "link": "https://www.filmtypes.com/films/Kodak-Portra-400",
@@ -465,7 +503,8 @@
     "film_speed": "400",
     "grain": "Fine",
     "contrast": "Medium-High",
-    "facts": "Professional, fine grain film with natural colors for portraits, fashion & commercial photography. Vision 3 technology"
+    "facts": "Professional, fine grain film with natural colors for portraits, fashion & commercial photography. Vision 3 technology",
+    "image": "/static/images/film/kodak-portra-400.jpg"
   },
   "Kodak Portra 800": {
     "link": "https://www.filmtypes.com/films/Kodak-Portra-800",
@@ -477,7 +516,8 @@
     "film_speed": "800",
     "grain": "Fine",
     "contrast": "Medium",
-    "facts": "Professional, fine grain film with natural colors for low light situations"
+    "facts": "Professional, fine grain film with natural colors for low light situations",
+    "image": "/static/images/film/kodak-portra-800.jpg"
   },
   "Kodak ProImage 100": {
     "link": "https://www.filmtypes.com/films/Kodak-ProImage-100",
@@ -489,7 +529,8 @@
     "film_speed": "100",
     "grain": "Medium",
     "contrast": "Medium-High",
-    "facts": "Professional film that is intended for portrait and social applications, and can be stored at room temperature - even in hot, humid climate. "
+    "facts": "Professional film that is intended for portrait and social applications, and can be stored at room temperature - even in hot, humid climate. ",
+    "image": "/static/images/film/kodak-proimage-100.jpg"
   },
   "Kodak T-MAX 100": {
     "link": "https://www.filmtypes.com/films/Kodak-T-MAX-100",
@@ -501,7 +542,8 @@
     "film_speed": "100",
     "grain": "Very Fine",
     "contrast": "Medium-High",
-    "facts": "A continuous-tone panchromatic black & white\nfilm for general outdoor and indoor photography. It is\nespecially useful for detailed subjects when you need\nmaximum image quality copy work."
+    "facts": "A continuous-tone panchromatic black & white\nfilm for general outdoor and indoor photography. It is\nespecially useful for detailed subjects when you need\nmaximum image quality copy work.",
+    "image": "/static/images/film/kodak-t-max-100.jpg"
   },
   "Kodak T-MAX 400": {
     "link": "https://www.filmtypes.com/films/Kodak-T-MAX-400",
@@ -513,7 +555,8 @@
     "film_speed": "400",
     "grain": "Fine",
     "contrast": "High",
-    "facts": "A continuous-tone panchromatic black & white\nhigh speed film for general outdoor and indoor photography. Its versatility benefits working in difficult lighting conditions and with moving subjects, and its fine grain profile, broad tonal range, and high resolving power benefit scanning and enlarging applications. Additionally, the film is well-suited to scientific and biomedical work, especially when fluorescence in photography is required."
+    "facts": "A continuous-tone panchromatic black & white\nhigh speed film for general outdoor and indoor photography. Its versatility benefits working in difficult lighting conditions and with moving subjects, and its fine grain profile, broad tonal range, and high resolving power benefit scanning and enlarging applications. Additionally, the film is well-suited to scientific and biomedical work, especially when fluorescence in photography is required.",
+    "image": "/static/images/film/kodak-t-max-400.jpg"
   },
   "Kodak T-MAX P3200": {
     "link": "https://www.filmtypes.com/films/Kodak-T-MAX-P3200",
@@ -525,7 +568,8 @@
     "film_speed": "1000",
     "grain": "Fine",
     "contrast": "High",
-    "facts": "A continuous-tone panchromatic black & white\nhigh speed film for general outdoor and indoor photography.It is categorized as a multi-speed film with a wide exposure latitude from EI 400-25,000 when pushed or pulled. Its versatility and speed benefits shooting handheld in difficult, available lighting conditions and with fast-moving subjects, and its fine grain profile, broad tonal range, and high resolving power benefit scanning and enlarging applications."
+    "facts": "A continuous-tone panchromatic black & white\nhigh speed film for general outdoor and indoor photography.It is categorized as a multi-speed film with a wide exposure latitude from EI 400-25,000 when pushed or pulled. Its versatility and speed benefits shooting handheld in difficult, available lighting conditions and with fast-moving subjects, and its fine grain profile, broad tonal range, and high resolving power benefit scanning and enlarging applications.",
+    "image": "/static/images/film/kodak-t-max-p3200.jpg"
   },
   "Kodak Tri-X 400": {
     "link": "https://www.filmtypes.com/films/Kodak-Tri-X-400",
@@ -537,7 +581,8 @@
     "film_speed": "400",
     "grain": "Fine",
     "contrast": "High",
-    "facts": "Traditional cubic grain panchromatic film with high contrast, re-engineered in 2007 with a finer grain. Classic photojournalist film. "
+    "facts": "Traditional cubic grain panchromatic film with high contrast, re-engineered in 2007 with a finer grain. Classic photojournalist film. ",
+    "image": "/static/images/film/kodak-tri-x-400.jpg"
   },
   "Kodak Ultramax 400": {
     "link": "https://www.filmtypes.com/films/Kodak-Ultramax-400",
@@ -549,7 +594,8 @@
     "film_speed": "400",
     "grain": "Medium",
     "contrast": "High",
-    "facts": "Previously Kodak Gold 400 from 1997 to 2007"
+    "facts": "Previously Kodak Gold 400 from 1997 to 2007",
+    "image": "/static/images/film/kodak-ultramax-400.jpg"
   },
   "Lomochrome Purple XR": {
     "link": "https://www.filmtypes.com/films/Lomochrome-Purple-XR",
@@ -561,7 +607,8 @@
     "film_speed": "400",
     "grain": "Medium",
     "contrast": "Medium",
-    "facts": "Creative colour negative film where blue becomes green, green becomes  purple, yellow becomes pink. ISO 100-400"
+    "facts": "Creative colour negative film where blue becomes green, green becomes  purple, yellow becomes pink. ISO 100-400",
+    "image": "/static/images/film/lomochrome-purple-xr.jpg"
   },
   "Lomography CN 100": {
     "link": "https://www.filmtypes.com/films/Lomography-CN-100",
@@ -573,7 +620,8 @@
     "film_speed": "100",
     "grain": "Normal",
     "contrast": "Medium-High",
-    "facts": "General purpose film"
+    "facts": "General purpose film",
+    "image": "/static/images/film/lomography-cn-100.jpg"
   },
   "Lomography CN 400": {
     "link": "https://www.filmtypes.com/films/Lomography-CN-400",
@@ -585,7 +633,8 @@
     "film_speed": "400",
     "grain": "Medium",
     "contrast": "High",
-    "facts": "General purpose film"
+    "facts": "General purpose film",
+    "image": "/static/images/film/lomography-cn-400.jpg"
   },
   "Lomography CN 800": {
     "link": "https://www.filmtypes.com/films/Lomography-CN-800",
@@ -597,7 +646,8 @@
     "film_speed": "800",
     "grain": "Medium",
     "contrast": "Medium",
-    "facts": "General purpose film"
+    "facts": "General purpose film",
+    "image": "/static/images/film/lomography-cn-800.jpg"
   },
   "Lomography Earl Grey": {
     "link": "https://www.filmtypes.com/films/Lomography-Earl-Grey",
@@ -609,7 +659,8 @@
     "film_speed": "100",
     "grain": "Normal",
     "contrast": "High",
-    "facts": "General purpose, panchromatic film. Produces deep blacks, bright whites and soft shades of grey Currently Fomapan 100 emulsion."
+    "facts": "General purpose, panchromatic film. Produces deep blacks, bright whites and soft shades of grey Currently Fomapan 100 emulsion.",
+    "image": "/static/images/film/lomography-earl-grey.jpg"
   },
   "Lomography Lady Grey": {
     "link": "https://www.filmtypes.com/films/Lomography-Lady-Grey",
@@ -621,7 +672,8 @@
     "film_speed": "400",
     "grain": "Medium",
     "contrast": "High",
-    "facts": "General purpose, panchromatic film. Produces deep blacks, bright whites and soft shades of grey.  Currently Fomapan 400 emulsion."
+    "facts": "General purpose, panchromatic film. Produces deep blacks, bright whites and soft shades of grey.  Currently Fomapan 400 emulsion.",
+    "image": "/static/images/film/lomography-lady-grey.jpg"
   },
   "Retro Pan 320 Soft": {
     "link": "https://www.filmtypes.com/films/Retro-Pan-320-Soft",
@@ -633,6 +685,7 @@
     "film_speed": "320",
     "grain": "Normal",
     "contrast": "Low",
-    "facts": "Retro 1950s style traditional panchromatic film characterised by a wide range of half tones and 'soft' images."
+    "facts": "Retro 1950s style traditional panchromatic film characterised by a wide range of half tones and 'soft' images.",
+    "image": "/static/images/film/retro-pan-320-soft.jpg"
   }
 }

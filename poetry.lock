@@ -573,6 +573,16 @@ MarkupSafe = ">=2.1.1"
 watchdog = ["watchdog (>=2.3)"]
 
 [[package]]
+name = "wget"
+version = "3.2"
+description = "pure python download utility"
+optional = false
+python-versions = "*"
+files = [
+    {file = "wget-3.2.zip", hash = "sha256:35e630eca2aa50ce998b9b1a127bb26b30dfee573702782aa982f875e3f16061"},
+]
+
+[[package]]
 name = "wtforms"
 version = "3.0.1"
 description = "Form validation and rendering for Python web development."
@@ -592,4 +602,4 @@ email = ["email-validator"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "654d871a2b71a7ccef548d9cf8e04172d0a459e3ac4c274314f9460f0241af6d"
+content-hash = "caa8ea8a8229c70832cf3bcf716c4c997e32c50e3845e08a631fd602ed62b026"

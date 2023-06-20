@@ -33,8 +33,9 @@ class Film(db.Model):
     grain = db.Column(db.String, nullable=False)
     contrast = db.Column(db.String, nullable=False)
     facts = db.Column(db.Text, nullable=True)
+    image = db.Column(db.String, nullable=True)
 
-    def __init__(self, brand, name, film_type, formats, origin, process, film_speed, grain, contrast, facts):
+    def __init__(self, brand, name, film_type, formats, origin, process, film_speed, grain, contrast, facts, image):
         self.brand = brand
         self.name = name
         self.film_type = film_type
@@ -45,6 +46,7 @@ class Film(db.Model):
         self.grain = grain
         self.contrast = contrast
         self.facts = facts
+        self.image = image
 
 
 with app.app_context():
