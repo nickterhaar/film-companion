@@ -2,20 +2,15 @@
 
 {% block content %}
     
+<h1 class="text-4xl text-center mt-8 mb-16">Film index</h1>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 mt-8">
     {% for film in films %}
-        <div class="container p-6 my-6 border-2 border-black rounded-lg">
-            <p>{{ film.brand }}</p>
-            <p>{{ film.name }}</p>
-            <p>{{ film.film_type }}</p>
-            <p>{{ film.formats }}</p>
-            <p>{{ film.origin }}</p>
-            <p>{{ film.process }}</p>
-            <p>{{ film.film_speed }}</p>
-            <p>{{ film.grain }}</p>
-            <p>{{ film.contrast }}</p>
-            <p>{{ film.facts }}</p>
-            <img src="{{ film.image }}" alt="">
-        </div>
+        <a href="/film/{{ film.id }}" class="box col-span-1 mx-auto w-60 h-60 flex justify-center align-middle text-center">
+            <img class="w-40 h-auto mx-auto" src="/static/images/film/jpg/{{ film.image }}.jpg" alt="">
+            <p class="mt-4">{{ film.name }}</p>
+        </a>
     {% endfor %}
+</div>
 
 {% endblock content %}

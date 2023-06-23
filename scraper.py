@@ -40,7 +40,7 @@ def get_films():
                 'grain': f'{spec_data[-5].text}',
                 'contrast': f'{spec_data[-4].text}',
                 'facts': f'{spec_data[-1].text}',
-                'image': f'{FILE_PATH}{link_name.lower()}.jpg'
+                'image': f'{link_name.lower()}'
             }
     return films
 

@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='dist/output.css')}}">
+    <link rel="stylesheet" href="/static/style.css">
     <title>Film Companion</title>
 </head>
 <body class="cursor-default">
-    <header class="bg-sd-green">
+    <header class="shadow-lg w-full bg-white sticky top-0">
         <nav class="container flex flex-row py-6 align-middle">
             <h2 class="flex items-center mr-12"><a class="h-max" href="/">Film Companion</a></h2>
             <ul class="flex">
-                <li class="p-4 mx-2"><a href="#">Film Index</a></li>
+                <li class="p-4 mx-2"><a href="/">Home</a></li>
+                <li class="p-4 mx-2"><a href="/film-index">Film Index</a></li>
                 <li class="p-4 mx-2"><a href="#">Tips & Tricks</a></li>
                 <li class="p-4 mx-2"><a href="#">Rules of Thumb</a></li>
                 <li class="p-4 mx-2"><a href="#">Gear</a></li>
@@ -19,9 +21,11 @@
         </nav>
     </header>
 
-    {% block content %}
+    <div class="container py-8">
+        {% block content %}
         
-    {% endblock content %}
+        {% endblock content %}
+    </div>
 
 </body>
 </html>
