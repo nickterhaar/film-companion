@@ -70,3 +70,15 @@ def film_index():
     films = Film.query.all()
 
     return render_template('film-index.html', films=films)
+
+@app.route('/film-index/bw')
+def black_white():
+    films = Film.query.filter(Film.film_type.like('%Black & White%'))
+
+    return render_template('film-index.html', films=films)
+
+@app.route('/film-index/color')
+def color():
+    films = Film.query.filter(Film.film_type.like('%Color%'))
+
+    return render_template('film-index.html', films=films)
