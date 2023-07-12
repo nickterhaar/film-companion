@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, session
+from flask import Flask, render_template, request, redirect, session, Markup
 from flask_wtf import FlaskForm
 from wtforms import BooleanField, StringField, RadioField, SubmitField, PasswordField, SelectField, DecimalField, TextAreaField, BooleanField, FieldList, FormField, EmailField, FileField, validators
 from flask_sqlalchemy import SQLAlchemy
@@ -67,18 +67,26 @@ def index():
 
 @app.route('/film-index')
 def film_index():
-    films = Film.query.all()
+    query = Film.query
+    process = set()
+
+    for key, value in request.args.items():
+        query = query.filter(getattr(Film, key).like(f'%{value}%'))
+    films = query.all()
+
+    # films = Film.query.all()
 
     return render_template('film-index.html', films=films)
 
-@app.route('/film-index/bw')
+
+@app.route('/film-index/<filter_property>')
 def black_white():
     films = Film.query.filter(Film.film_type.like('%Black & White%'))
 
     return render_template('film-index.html', films=films)
 
-@app.route('/film-index/color')
-def color():
-    films = Film.query.filter(Film.film_type.like('%Color%'))
+# @app.route('/film-index/color')
+# def color():
+#     films = Film.query.filter(Film.film_type.like('%Color%'))
 
-    return render_template('film-index.html', films=films)
+#     return render_template('film-index.html', films=films)

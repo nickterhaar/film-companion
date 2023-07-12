@@ -1,16 +1,19 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-    
+    {{ film_type }}
+    {{ brand }}
 <h1 class="text-4xl text-center mt-8 mb-16">Film index</h1>
 
 <div class="flex justify-center">
-    <a class="text-center text-white px-4 py-2 mx-4 rounded bg-sd-green" href="./bw">
-        Black & White
-    </a>
-    <a class="text-center text-white px-4 py-2 mx-4 rounded bg-sd-green" href="./color">
-        Color
-    </a>
+    <h3>Brands</h3>
+    {% for value in films|map(attribute='brand')|unique %}
+        <a class="text-center text-white px-4 py-2 mx-4 rounded bg-sd-green" href="/film-index?brand={{ value|e|safe }}">{{ value }}</a>
+    {% endfor %}
+    <h3>Type</h3>
+    {% for value in films|map(attribute='film_type')|unique %}
+        <a class="text-center text-white px-4 py-2 mx-4 rounded bg-sd-green" href="/film-index?film_type={{ value|e|safe }}">{{ value }}</a>
+    {% endfor %}
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 mt-8">
