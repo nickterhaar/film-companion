@@ -1,0 +1,7 @@
+{% macro filter_link(attribute, value) %}
+    {% if request.args|length == 0 %}
+        <a class="text-center text-white px-4 py-2 mx-4 rounded bg-sd-green" href="{{ url_for(request.endpoint, **request.args) }}?{{ attribute }}={{ value }}">{{ value }}</a>
+    {% else %}
+        <a class="text-center text-white px-4 py-2 mx-4 rounded bg-sd-green" href="{{ url_for(request.endpoint, **request.args) }}&{{ attribute }}={{ value }}">{{ value }}</a>
+    {% endif %}
+{% endmacro %}

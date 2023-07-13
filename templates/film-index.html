@@ -1,25 +1,46 @@
 {% extends 'layout.html' %}
+{% from "filter_buttons.html" import filter_link with context %}
 
 {% block content %}
-    {{ film_type }}
-    {{ brand }}
-<h1 class="text-4xl text-center mt-8 mb-16">Film index</h1>
 
-<div class="flex justify-center">
-    <h3>Brands</h3>
-    {% for value in films|map(attribute='brand')|unique %}
-        <a class="text-center text-white px-4 py-2 mx-4 rounded bg-sd-green" href="/film-index?brand={{ value|e|safe }}">{{ value }}</a>
-    {% endfor %}
-    <h3>Type</h3>
-    {% for value in films|map(attribute='film_type')|unique %}
-        <a class="text-center text-white px-4 py-2 mx-4 rounded bg-sd-green" href="/film-index?film_type={{ value|e|safe }}">{{ value }}</a>
-    {% endfor %}
+<!-- {{ url_for(request.endpoint, **request.args) }} -->
+
+<h1 class="text-4xl text-center my-8">Film index</h1>
+{% if request.args|length != 0 %}
+    <a href="/film-index">Clear Filters</a>
+{% endif %}
+
+<div class="flex flex-col">
+    <div class="my-4">
+        <h3 class="w-max mx-auto mb-4">Brands</h3>
+        <div class="flex justify-center">
+            {% for value in films|map(attribute='brand')|unique %}
+                {{ filter_link('brand', value) }}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="my-4">
+        <h3 class="w-max mx-auto mb-4">Film Type</h3>
+        <div class="flex justify-center">
+            {% for value in films|map(attribute='film_type')|unique %}
+                {{ filter_link('film_type', value) }}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="my-4">
+        <h3 class="w-max mx-auto mb-4">Film Speed</h3>
+        <div class="flex justify-center">
+            {% for value in films|map(attribute='film_speed')|unique|sort %}
+                {{ filter_link('film_speed', value) }}
+            {% endfor %}
+        </div>
+    </div>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 mt-8">
     {% for film in films %}
-        <a href="/film/{{ film.id }}" class="content-box col-span-1 mx-auto w-60 h-60 flex justify-center align-middle text-center">
-            <img class="w-40 h-auto mx-auto" src="/static/images/film/jpg/{{ film.image }}.jpg" alt="">
+        <a href="/film/{{ film.id }}" class="content-box flex-col col-span-1 mx-auto w-60 h-60 flex justify-center align-middle text-center">
+            <img class="w-40 h-auto mx-auto" src="/static/images/film/png/{{ film.image }}.png" alt="">
             <p class="mt-4">{{ film.name }}</p>
         </a>
     {% endfor %}

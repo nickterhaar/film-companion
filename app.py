@@ -19,7 +19,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
-
 # --- DATABASE ---
 class Film(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -58,9 +57,13 @@ with app.app_context():
 
 
 # --- APP ---
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
+
 @app.route('/')
 def index():
-    
 
     return render_template('index.html')
 
@@ -68,25 +71,16 @@ def index():
 @app.route('/film-index')
 def film_index():
     query = Film.query
-    process = set()
 
     for key, value in request.args.items():
         query = query.filter(getattr(Film, key).like(f'%{value}%'))
     films = query.all()
 
-    # films = Film.query.all()
-
     return render_template('film-index.html', films=films)
 
 
-@app.route('/film-index/<filter_property>')
-def black_white():
-    films = Film.query.filter(Film.film_type.like('%Black & White%'))
+@app.route('/film/<id>')
+def film(id):
+    film = Film.query.get(id)
 
-    return render_template('film-index.html', films=films)
-
-# @app.route('/film-index/color')
-# def color():
-#     films = Film.query.filter(Film.film_type.like('%Color%'))
-
-#     return render_template('film-index.html', films=films)
+    return render_template('film.html', film=film)

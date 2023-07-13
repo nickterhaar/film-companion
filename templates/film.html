@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    
+    <div class="content-box flex flex-row w-max gap-8">
+        <img class="w-40 h-auto" src="/static/images/film/png/{{ film.image }}.png" alt="">
+        <div class="flex flex-col">
+            <h1>{{ film.name }}</h1>
+        </div>
+    </div>
+
+{% endblock content %}
