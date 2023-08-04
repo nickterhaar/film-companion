@@ -109,6 +109,9 @@ def login():
             return redirect('/register')
         if hash.check_value(user.pass_hash, login_form.password.data, salt=login_form.username.data):
             session['user_id'] = user.id
+            session['first_name'] = user.first_name
+            session['last_name'] = user.last_name
+            session['username'] = user.username
             session['admin'] = user.admin
             return redirect('/')
         else:
@@ -171,6 +174,13 @@ def film(id):
     film = Film.query.get(id)
 
     return render_template('film.html', film=film)
+
+
+@app.route('/<username>')
+def user(username):
+    user = User.query.filter_by(username=username).first()
+
+    return render_template('user.html', user=user)
 
 
 with app.app_context():

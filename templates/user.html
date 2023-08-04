@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    
+    <div class="content-box w-1/2 mx-auto">
+        <table class="border-separate border-spacing-4">
+            <tr>
+                <td class="align-top">Name:</td>
+                <td class="align-top">{{ user.first_name }} {{ user.last_name }}</td>
+            </tr>
+            <tr>
+                <td class="align-top">Username:</td>
+                <td class="align-top">{{ user.username }}</td>
+            </tr>
+            <tr>
+                <td class="align-top">Followers:</td>
+                <td class="align-top">0</td>
+            </tr>
+            <tr>
+                <td class="align-top">Social accounts</td>
+                <td class="align-top">
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Unsplash</li>
+                        <li>Dribbble</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="align-top">Gear:</td>
+                <td class="align-top">
+                    <ul>
+                        <li>Camera</li>
+                        <li>Lenses</li>
+                        <li>Film Stocks</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+{% endblock content %}

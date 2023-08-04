@@ -22,7 +22,7 @@
             <div class="nav-right flex">
                 <ul class="flex">
                     {% if session['user_id'] %}
-                        <p class="p-4 mx-2">User ID: {{ session['user_id'] }}</p>
+                        <li class="p-4 mx-2"><a href="/{{ session['username'] }}">{{ session['first_name'] }} {{ session['last_name'] }}</a></li>
                         <li class="p-4 mx-2"><a href="/logout">Logout</a></li>
                     {% else %}
                         <li class="p-4 mx-2"><a href="/register">Register</a></li>
