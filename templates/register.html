@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    
+    <h2 class="text-center text-2xl my-16">Register now to get the full <span class="underline">Film Companion</span> experience</h2>
+
+    <div class="content-box w-1/2 mx-auto">
+        <form class="form grid grid-cols-2 gap-4 m-4" action="/register" method="POST">
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    {% for message in messages %}
+                        <p class="col-span-2 error flash text-sd-red italic">{{ message }}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            {{ form.csrf_token }}
+            <div class="col-span-1">
+                {{ form.first_name }}
+            </div>
+            <div class="col-span-1">
+                {{ form.last_name }}
+            </div>
+            <div class="col-span-1">
+                {{ form.username }}
+            </div>
+            <div class="col-span-2">
+                {{ form.email }}
+            </div>
+            <div class="col-span-1">
+                {{ form.password }}
+            </div>
+            <div class="col-span-1">
+                {{ form.confirm }}
+            </div>
+            <div class="col-span-2 mt-8 flex justify-center">
+                {{ form.submit }}
+            </div>
+        </form>
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    
+    <div class="form">
+        <form action="/login" method="POST">
+            {{ form.csrf_token }}
+            {% for field in form %}
+                {% if field.type == 'BooleanField' %}
+                    <div class="checkbox">
+                        {{ field }}
+                        <p class="label">{{ field.label }}</p>
+                    </div>
+                    {% for error in field.errors %}
+                        <p class="error">{{ error }}</p>
+                    {% endfor %}
+                {% else %}
+                    {% if field.type != 'CSRFTokenField' and field.type != 'SubmitField' %}
+                        <p class="label">{{ field.label }}</p>
+                    {% endif %}
+                    {{ field }}
+                    {% for error in field.errors %}
+                        <p class="error">{{ error }}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        </form>
+    </div>
+
+{% endblock content %}

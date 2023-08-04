@@ -8,15 +8,28 @@
 </head>
 <body class="cursor-default">
     <header class="shadow-lg w-full bg-white sticky top-0">
-        <nav class="container flex flex-row py-6 align-middle">
-            <h2 class="flex items-center mr-12"><a class="h-max" href="/">Film Companion</a></h2>
-            <ul class="flex">
-                <li class="p-4 mx-2"><a href="/">Home</a></li>
-                <li class="p-4 mx-2"><a href="/film-index">Film Index</a></li>
-                <li class="p-4 mx-2"><a href="#">Tips & Tricks</a></li>
-                <li class="p-4 mx-2"><a href="#">Rules of Thumb</a></li>
-                <li class="p-4 mx-2"><a href="#">Gear</a></li>
-            </ul>
+        <nav class="container flex flex-row py-6 justify-between align-middle">
+            <div class="nav-left flex">
+                <h2 class="flex items-center mr-12"><a class="h-max" href="/">Film Companion</a></h2>
+                <ul class="flex">
+                    <li class="p-4 mx-2"><a href="/">Home</a></li>
+                    <li class="p-4 mx-2"><a href="/film-index">Film Index</a></li>
+                    <li class="p-4 mx-2"><a href="#">Tips & Tricks</a></li>
+                    <li class="p-4 mx-2"><a href="#">Rules of Thumb</a></li>
+                    <li class="p-4 mx-2"><a href="#">Gear</a></li>
+                </ul>
+            </div>
+            <div class="nav-right flex">
+                <ul class="flex">
+                    {% if session['user_id'] %}
+                        <p class="p-4 mx-2">User ID: {{ session['user_id'] }}</p>
+                        <li class="p-4 mx-2"><a href="/logout">Logout</a></li>
+                    {% else %}
+                        <li class="p-4 mx-2"><a href="/register">Register</a></li>
+                        <li class="p-4 mx-2"><a href="/login">Login</a></li>
+                    {% endif %}
+                </ul>
+            </div>
         </nav>
     </header>
 
