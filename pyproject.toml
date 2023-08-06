@@ -16,6 +16,7 @@ bs4 = "^0.0.1"
 requests = "^2.31.0"
 sqlalchemy-utils = "^0.41.1"
 wget = "^3.2"
+flask-hashing = "^1.1"
 
 
 [build-system]

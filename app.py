@@ -176,7 +176,7 @@ def film(id):
     return render_template('film.html', film=film)
 
 
-@app.route('/<username>')
+@app.route('/@<username>')
 def user(username):
     user = User.query.filter_by(username=username).first()
 

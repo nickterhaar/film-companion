@@ -185,6 +185,20 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
+name = "flask-hashing"
+version = "1.1"
+description = "Easy hashing of data in Flask"
+optional = false
+python-versions = "*"
+files = [
+    {file = "Flask-Hashing-1.1.tar.gz", hash = "sha256:7f128b4a56ed2100d1e14971719dae548b9b568119805f656c6d440097bcd85c"},
+    {file = "Flask_Hashing-1.1-py2-none-any.whl", hash = "sha256:d7fb7f9b91afaf4e1368d906f302883d63c63bd3472200fabede5bd896080e6e"},
+]
+
+[package.dependencies]
+Flask = "*"
+
+[[package]]
 name = "flask-sqlalchemy"
 version = "3.0.3"
 description = "Add SQLAlchemy support to your Flask application."
@@ -602,4 +616,4 @@ email = ["email-validator"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "caa8ea8a8229c70832cf3bcf716c4c997e32c50e3845e08a631fd602ed62b026"
+content-hash = "9f273abe1208562719e44997c74556d71bac8fd05fb03dae484c991e367977ce"
