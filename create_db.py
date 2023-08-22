@@ -1,4 +1,4 @@
-from app import db, app, hash, Film, User
+from app import db, app, hash, Film, User, Gear
 import json
 
 def admin_user():
@@ -12,6 +12,11 @@ def admin_user():
 
     new_admin = User(first_name, last_name, username, email, pass_hash, admin)
     db.session.add(new_admin)
+    db.session.commit()
+
+def gear():
+    new_gear = Gear('Canon', 'EOS 7D MKII', 2014, 'Camera')
+    db.session.add(new_gear)
     db.session.commit()
 
 def create_db():
@@ -41,3 +46,4 @@ if __name__ == "__main__":
         db.create_all()
         create_db()
         admin_user()
+        gear()

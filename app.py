@@ -67,6 +67,20 @@ class User(db.Model):
         self.email = email
         self.pass_hash = pass_hash
         self.admin = admin
+
+# Gear
+class Gear(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    brand = db.Column(db.String, nullable=False)
+    name = db.Column(db.String, nullable=False)
+    release_year = db.Column(db.Integer, nullable=True)
+    type = db.Column(db.String, nullable=False)
+
+    def __init__(self, brand, name, release_year, type):
+        self.brand = brand
+        self.name = name
+        self.release_year = release_year
+        self.type = type
 # --- END DATABASE ---
 
 # --- FORMS ---
@@ -182,6 +196,11 @@ def user(username):
 
     return render_template('user.html', user=user)
 
+
+@app.route('/@<username>/<user_section>')
+def user_section(username, user_section):
+    
+    return render_template('user.html', user_section=user_section)
 
 with app.app_context():
     db.create_all()

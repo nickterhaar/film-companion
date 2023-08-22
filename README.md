@@ -8,8 +8,9 @@
 - Setting suggestions (based on history/already taken pictures)
 
 
-## USEFULL SOURCES
+## USEFUL SOURCES
 - https://www.filmtypes.com/
 - https://thedarkroom.com/film-index/
 - https://www.digitaltruth.com/
 - https://www.digitaltruth.com/devchart.php
+- https://kamerastore.com/collections/camera-database (analog camera database)
