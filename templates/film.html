@@ -3,10 +3,21 @@
 {% block content %}
     
     <div class="content-box flex flex-row w-max gap-8">
-        <img class="w-40 h-auto" src="/static/images/film/png/{{ film.image }}.png" alt="">
+        <img class="w-40 h-fit" src="/static/images/film/png/{{ film.image }}.png" alt="">
         <div class="flex flex-col">
-            <h1>{{ film.name }}</h1>
+            <h2 class="font-bold text-lg">Film info:</h2>
+            <p>Brand: {{ film.brand }}</p>
+            <p>Name: {{ film.name }}</p>
+            <p>Film type: {{ film.film_type }}</p>
+            <p>Formats: {{ film.formats }}</p>
+            <p>Process: {{ film.process }}</p>
+            <p>Speed: {{ film.film_speed }}</p>
+            <p>Grain: {{ film.grain }}</p>
         </div>
+        <div class="facts w-80">
+            <h2 class="font-bold text-lg">Facts:</h2>
+            <p>{{ film.facts }}</p>
+        </div>        
     </div>
 
 {% endblock content %}

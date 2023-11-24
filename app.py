@@ -159,6 +159,9 @@ def register():
             db.session.commit()
             db.session.refresh(new_user)
             session['user_id'] = new_user.id
+            session['first_name'] = new_user.first_name
+            session['last_name'] = new_user.last_name
+            session['username'] = new_user.username
             session['admin'] = new_user.admin
             return redirect('/')
 
@@ -197,10 +200,31 @@ def user(username):
     return render_template('user.html', user=user)
 
 
-@app.route('/@<username>/<user_section>')
+@app.route('/@<username>/<user_section>', methods=['GET', 'POST'])
 def user_section(username, user_section):
+
+    form = ''
+
+    if user_section =='info':
+        user = User.query.get(session['user_id'])
+        form = RegisterForm(obj=user)
+
+        if form.validate_on_submit():
+            form.populate_obj(user)
+            db.session.commit()
+            db.session.refresh(user)
+            session['username'] = user.username
+            return redirect(f"/@{session['username']}")
+
     
-    return render_template('user.html', user_section=user_section)
+    return render_template('user.html', user_section=user_section, form=form)
+
+
+@app.route('/gear')
+def gear():
+
+    return render_template('gear.html')
+
 
 with app.app_context():
     db.create_all()
