@@ -1,4 +1,5 @@
 # FILM COMPANION
+*This is a project I sometimes work on when I have some time off. It has been quiet for a while...*
 
 ## THE IDEA
 - Use/create database with film info (speed(iso), nominal speed, max push/pull, ways to develop, etc.) and examples.

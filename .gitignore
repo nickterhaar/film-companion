@@ -3,3 +3,5 @@ app.cpython-311.pyc
 .venv
 static/images/.DS_Store
 __pychache__/
+.idea
+.DS_Store
